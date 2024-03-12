@@ -1,0 +1,11 @@
+* Progress
+<2024-03-05 Tue 21:48>: Continue here:
+- https://nextjs.org/learn/dashboard-app/optimizing-fonts-images
+
+<2024-03-11 Mon 18:21>: Continue here:
+- Practice: Adding a secondary font
+- https://nextjs.org/learn/dashboard-app/optimizing-fonts-images
+
+<2024-03-11 Mon 20:33>: Continue here:
+- Chapter 5: Navigating Between Pages
+- https://nextjs.org/learn/dashboard-app/navigating-between-pages
