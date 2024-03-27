@@ -38,3 +38,6 @@ npm run seed
 
 Continue here:
 https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
+
+Continue here:
+https://nextjs.org/learn/dashboard-app/mutating-data
