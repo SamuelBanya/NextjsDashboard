@@ -41,3 +41,7 @@ https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
 
 Continue here:
 https://nextjs.org/learn/dashboard-app/mutating-data
+
+NOTE:
+I had to use this page to figure out how to use 'index.d.ts' file to import 'next-auth' properly:
+- https://github.com/nextauthjs/next-auth/issues/210
