@@ -3,7 +3,16 @@ import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
-import { CardSkeleton, InvoiceSkeleton, RevenueChartSkeleton } from '@/app/ui/skeletons';
+import {
+  CardSkeleton,
+  InvoiceSkeleton,
+  RevenueChartSkeleton,
+} from '@/app/ui/skeletons';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default async function Page() {
   // const { totalPaidInvoices, totalPendingInvoices, numberOfInvoices, numberOfCustomers } = await fetchCardData();
@@ -21,7 +30,7 @@ export default async function Page() {
         <Suspense fallback={<RevenueChartSkeleton />}>
           <RevenueChart />
         </Suspense>
-        <Suspense fallback={<InvoiceSkeleton/>}>
+        <Suspense fallback={<InvoiceSkeleton />}>
           <LatestInvoices />
         </Suspense>
       </div>
